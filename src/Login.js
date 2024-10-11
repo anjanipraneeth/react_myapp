@@ -34,7 +34,7 @@ const Login = () => {
             setPassword('');
         } catch (err) {
             if (err.response) {
-                setError('Login failed: ' + err.response.data);
+                setError('Login failed: ');
             } else {
                 setError('Login failed. Please try again.');
             }
