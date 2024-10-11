@@ -36,7 +36,7 @@ const Login = () => {
             if (err.response) {
                 setError('Login failed ');
             } else {
-                setError('Login failed. Please try again.');
+                setError('Login failed. Please try .');
             }
         }
     };
